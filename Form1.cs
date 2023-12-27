@@ -408,7 +408,7 @@ namespace Vending_Machine
             {
                 for (int j = kusur.Length - 1; j >= 0; j--)
                 {
-                    for (int k = 1; k < broj_novcanica[i] + 1; k++)
+                    for (int k = 1; k < broj_novcanica[i]; k++)
                     {
                         if (kusur[j] != 0)
                         {
